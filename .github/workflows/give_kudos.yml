@@ -10,7 +10,7 @@ env:
   STRAVA_PASSWORD: ${{ secrets.STRAVA_PASSWORD }}
 jobs:
   run-kudos-cron:
-    runs-on: ubuntu-22.04.4 LTS
+    runs-on: ubuntu-22.04
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v3 
